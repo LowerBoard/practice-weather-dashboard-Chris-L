@@ -36,10 +36,10 @@ public class WeatherAppApplication implements CommandLineRunner {
 
                 switch (choice) {
                     case 1:
-                        weatherService.displayWeatherForCity("St.Louis,MO");
+                        weatherService.displayWeatherForCity("St.Louis,US");
                         break;
                     case 2:
-                        weatherService.displayWeatherForCity("New York,NY");
+                        weatherService.displayWeatherForCity("New York City,US");
                         break;
                     case 3:
                         weatherService.displayWeatherForCity("Brussels,BE");
