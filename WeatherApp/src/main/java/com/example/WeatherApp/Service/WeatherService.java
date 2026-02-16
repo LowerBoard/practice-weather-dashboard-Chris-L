@@ -11,7 +11,7 @@ public class WeatherService {
     private String apiKey;
 
     public void displayWeatherForCity(String city) {
-        String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
+        String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=imperial";
         RestTemplate restTemplate = new RestTemplate();
 
         try {
